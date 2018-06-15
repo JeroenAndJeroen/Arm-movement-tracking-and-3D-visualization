@@ -1,0 +1,56 @@
+#entryFrame{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+#title_bar{
+    display: block;
+    background-color: darkcyan;
+    width: 100%;
+    color: aliceblue;
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    text-align: center;
+}
+
+#form_data{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+#form_data > p{
+    color: aliceblue;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 1em 0 0 0;
+}
+#form_data > input[type="text"]{
+    background: transparent;
+    color: aliceblue;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-color: aliceblue;
+}
+#form_data > input[type="button"]{
+    background-color: darkcyan;
+    color: aliceblue;
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    margin: 1em 0 0 0;
+}
