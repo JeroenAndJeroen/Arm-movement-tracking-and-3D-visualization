@@ -1,0 +1,27 @@
+controller_list:
+  - name: fake_base_controller
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+  - name: fake_shoulder_pan_controller
+    joints:
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+  - name: fake_shoulder_lift_controller
+    joints:
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+  - name: fake_elbow_controller
+    joints:
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
