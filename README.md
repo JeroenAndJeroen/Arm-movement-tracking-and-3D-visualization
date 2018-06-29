@@ -1,4 +1,6 @@
 # READ ME!!
+The report of our project is in Arm movement tracking and 3D visualization
+
 The Arm_tracker_Internship.pdf describes what the assignment is.
 
 Connecting MATLAB and ROS.docx describes how to connect Matlab and ROS to each other. Eventually we did not use this for the assignment.
