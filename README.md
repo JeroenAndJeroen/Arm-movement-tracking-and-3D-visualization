@@ -1,5 +1,5 @@
 # READ ME!!
-The report of our project is in Arm movement tracking and 3D visualization
+The report of our project is in Arm movement tracking and 3D visualization.pdf
 
 The Arm_tracker_Internship.pdf describes what the assignment is.
 
